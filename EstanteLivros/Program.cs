@@ -6,6 +6,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+
         MongoClient mongo = Conexao.ConexaoBanco();
 
         var base_de_dados = mongo.GetDatabase("estante");
